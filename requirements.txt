@@ -1,0 +1,4 @@
+ultralytics
+roboflow
+supervision
+jupyter

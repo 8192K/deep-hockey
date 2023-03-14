@@ -128,4 +128,5 @@ dmypy.json
 # Pyre type checker
 .pyre/
 
-*.mp4
+data/vid/eck_ecn_excerpt_annotated.mp4
+data/vid/eck_ecn_excerpt.mp4

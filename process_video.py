@@ -2,7 +2,7 @@ from ultralytics import YOLO
 import supervision as sv
 
 def main():
-    model = YOLO('./data/best_n.pt')
+    model = YOLO('./data/yolo/runs/detect/medium/weights/best.pt')
 
     box_annotator = sv.BoxAnnotator(
         thickness=1,
@@ -11,7 +11,7 @@ def main():
     )
 
     SOURCE_PATH = './data/vid/eck_ecn_excerpt.mp4'
-    TARGET_PATH = './data/vid/eck_ecn_excerpt_annotated_gen.mp4'
+    TARGET_PATH = './data/vid/eck_ecn_excerpt_annotated.mp4'
 
     video_info = sv.VideoInfo.from_video_path(SOURCE_PATH)
 

@@ -1,4 +1,5 @@
-ultralytics
+ultralytics==8.0.53
 roboflow
-supervision
+supervision==0.3.0
 jupyter
+pandas
